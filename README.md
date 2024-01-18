@@ -74,28 +74,9 @@ In the Indian and Southeast Asian markets, approximately 80% of revenue comes fr
 In this project, you will define high-value customers based on a certain metric (mentioned later below) and predict churn only on high-value customers.
 
 # Modelling
+PCA is used for dimensionality reduction and models are built with and without PCA.
 
-Build models to predict churn. The predictive model that you’re going to build will serve two purposes:
-
-It will be used to predict whether a high-value customer will churn or not, in near future (i.e. churn phase). By knowing this, the company can take action steps such as providing special plans, discounts on recharge etc.
-
-It will be used to identify important variables that are strong predictors of churn. These variables may also indicate why customers choose to switch to other networks.
-
- 
-
-In some cases, both of the above-stated goals can be achieved by a single machine learning model.
-
- 
-
-Also, since the rate of churn is typically low (about 5-10%, this is called class-imbalance) - try using techniques to handle class imbalance.
-
- 
-
-Therefore, build another model with the main objective of identifying important predictor attributes which help the business understand indicators of churn. A good choice to identify important variables is a logistic regression model or a model from the tree family. In the case of logistic regression, make sure to handle multicollinearity.
-
- 
-
-After identifying important predictors, display them visually - you can use plots, summary tables etc. - whatever you think best conveys the importance of features.
+Logistic regression and decison tree models are built to predict the customer churn. Random forest models also used with hyper parameter truing using gridsearch CV methods to find optimal hyper parameters.
 
  
 
