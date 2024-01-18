@@ -79,9 +79,3 @@ PCA is used for dimensionality reduction and models are built with and without P
 Logistic regression and decison tree models are built to predict the customer churn. Random forest models also used with hyper parameter truing using gridsearch CV methods to find optimal hyper parameters.
 
  
-
-Finally, recommend strategies to manage customer churn based on your observations.
-
- 
-
-The evaluation rubrics and submission page for this assignment are provided in a separate session at the end of this module. You have to submit everything in a single Jupyter notebook.
